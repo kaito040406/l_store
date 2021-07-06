@@ -46,3 +46,15 @@ end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
+
+# react用のgem
+gem 'react-rails'
+
+gem 'rspec-rails'
+
+# デバッグ用のgem
+gem 'pry-byebug'
+gem 'pry-doc'
+
+# 日本語か用のgem 
+gem 'rails-i18n'
